@@ -12,7 +12,7 @@ import { decodeTypeIdentifier } from '../utils/type-id';
 import { parseTypeId } from '../utils/parse-type-id';
 
 // By default, make the contract a total of 50 slots (storage + gap)
-const DEFAULT_SLOT_COUNT = 50;
+const DEFAULT_SLOT_COUNT = 60;
 
 export function* addStorageGaps(
   sourceUnit: SourceUnit,
